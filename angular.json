@@ -74,11 +74,11 @@
             "production": {
               "browserTarget": "memory-game:build:production"
             },
-            "development": {
-              "browserTarget": "memory-game:build:development"
+            "dev": {
+              "browserTarget": "memory-game:build:dev"
             }
           },
-          "defaultConfiguration": "development"
+          "defaultConfiguration": "dev"
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
