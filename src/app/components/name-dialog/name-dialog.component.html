@@ -1,0 +1,11 @@
+<h1 mat-dialog-title>Bienvenido</h1>
+<div mat-dialog-content>
+    <mat-form-field appearance="outline">
+        <input matInput placeholder="Ingresa tu nombre" [(ngModel)]="data.name">
+        <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+        <mat-hint>Solo se guardará una vez</mat-hint>
+      </mat-form-field>
+</div>
+<div mat-dialog-actions>
+  <button mat-raised-button color="primary" [mat-dialog-close]="data.name" cdkFocusInitial>Continuar</button>
+</div>

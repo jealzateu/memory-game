@@ -1,0 +1,7 @@
+<h2 mat-dialog-title>Felicitaciones!</h2>
+<mat-dialog-content class="mat-typography">
+    {{data.name}} has completado el juego con {{data.errors}} errores y {{data.successes}} aciertos.
+</mat-dialog-content>
+<mat-dialog-actions>
+    <button mat-raised-button color="primary" [mat-dialog-close]="true" cdkFocusInitial>Reiniciar</button>
+</mat-dialog-actions>
